@@ -4,9 +4,12 @@
 Este projeto representa uma análise end-to-end, unindo o poder de processamento do Python com a excelência visual do Power BI. A estrutura foi desenhada seguindo princípios de UX Design e a lógica da Pirâmide Invertida, onde o Sumário Executivo atua como o ponto de partida estratégico, seguido pelo detalhamento técnico.
 
 🏗️ Metodologia e Governança de Dados
+
 Um diferencial deste projeto foi a fase de Conciliação e Auditoria de Dados:
 
 Integridade Referencial: Identificou-se uma variação controlada entre o faturamento calculado em Python (R$ 5,62M) e o Power BI (R$ 5,52M). Essa diferença reflete critérios de filtragem mais rigorosos no dashboard para exibir apenas contratos com status de "Faturamento Confirmado".
+
+💡 Estratégia de Validação: Neste projeto, realizei o tratamento de dados em duas frentes: utilizei Python para uma auditoria inicial e tratamento de tipos, e repliquei a lógica no Power Query para garantir que o Dashboard fosse autossuficiente e validado por dupla checagem.
 
 Scalability & Flexibilidade: O uso de .merge(how='left') e .groupby().size() em Python garantiu que nenhum registro fosse perdido durante a fase de ETL, permitindo uma visão holística da base bruta antes da aplicação das regras de negócio no BI.
 
