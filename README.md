@@ -14,7 +14,7 @@ Scalability & Flexibilidade: O uso de .merge(how='left') e .groupby().size() em 
 1. Sumário Executivo & Direcionais Estratégicos
 A "Home" do projeto foca em insights acionáveis.
 
-Insight: Identificamos que a plena integração dos 15 profissionais restantes pode elevar o faturamento anual para R$ 6,6 Milhões.
+Insight: Identificquei que a plena integração dos 15 profissionais restantes pode elevar o faturamento anual de R$ 5,5 Milhões para R$ 6,6 Milhões.
 
 ![Sumário Executivo](sumario_executivo.png)
 
@@ -38,8 +38,8 @@ Nota Técnica: No Power BI, optou-se pela escala decimal (2,39 contratos/pessoa)
 
 Fontes de Dados: Integração de múltiplos datasets em formatos .csv (Base de Funcionários e Clientes) e .xlsx (Base de Serviços Prestados).
 
-Python (Pandas): ETL e tratamento de tipos de dados distintos.
+Python (Pandas & Matplotlib): Realizei o processo de ETL, o tratamento de tipos de dados distintos e a análise visual exploratória para validação de hipóteses.
 
-Power BI: Modelagem relacional e criação de medidas em DAX.
+Power BI: Desenvolvi a modelagem relacional, a criação de medidas em DAX e o design dos dashboards interativos.
 
 (Obs: A aba Laboratório foi mantida como página oculta no arquivo .pbix para fins de validação técnica e futuras expansões de métricas.)
